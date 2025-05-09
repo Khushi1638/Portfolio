@@ -1,0 +1,98 @@
+
+.hero-section{
+    padding: 100px 66px;
+    height: 82vh;
+    background: linear-gradient(to bottom, #FDC435, #fc6b0b);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section h1 span {
+    display: block;
+    
+}
+
+.greeting {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.role{
+    font-size: 2.3rem;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.social-link-list {
+    list-style: none;
+    display: flex;
+}
+.social-link-list li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fcf6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 35px;
+}
+
+.social-link-list li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.3rem;
+}
+
+.resume-btn , .download-resume-btn {
+    padding: 8px 16px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--secondary-color);
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+    letter-spacing: 0.6px;
+}
+
+.resume-btn:hover , 
+.download-resume-btn:hover{
+    background: var(--primary-color);
+} 
+
+.social-link-list li a i {
+    transition: var(--transition);
+}
+
+.linked-in:hover,
+.github:hover,
+.twitter:hover{
+    color: #fcf6f6;
+}
+
+.my-image-container {
+    height: 100%;
+}
+
+.my-image{
+    width: 100%;
+   height: 65vh;
+}
+
+

@@ -1,0 +1,31 @@
+.contact-me {
+    padding: 55px 66px;
+}
+
+.contact-heading-para {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.contact-social-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+.social-link a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    gap:25px;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.social-link a:hover {
+    color: var(--secondary-color);
+    font-weight: 500;
+}

@@ -1,0 +1,37 @@
+.skill-section {
+    padding: 50px 66px;
+}
+
+
+
+.skill-lists {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-lists li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-lists li img{
+    max-width: 110px;
+}
+
+.css-img,
+.git-img,
+.python-img {
+    width: 90px;
+}
+
+.skill-lists li p {
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    color: var(--text-color);
+    font-weight: 600;
+}
